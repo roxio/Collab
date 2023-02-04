@@ -2,13 +2,6 @@
 
 /**
  * The class provides methods for the realization of messages and replies.
- *
- * @author Philipp Kiszka <info@o-dyn.de>
- * @name message
- * @version 2.0
- * @package Collabtive
- * @link http://collabtive.o-dyn.de
- * @license http://opensource.org/licenses/gpl-license.php GNU General Public License v3 or later
  */
 class message
 {

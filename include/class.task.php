@@ -2,14 +2,6 @@
 
 /**
  * This class provides methods to realize tasks
- *
- * @author Philipp Kiszka <info@o-dyn.de>
- * @author Eva Kiszka <eva@o-dyn.de>
- * @name task
- * @package Collabtive
- * @version 2.0
- * @link http://collabtive.o-dyn.de
- * @license http://opensource.org/licenses/gpl-license.php GNU General Public License v3 or later
  */
 class task
 {

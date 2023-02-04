@@ -2,14 +2,6 @@
 
 /**
  * This class provides methods to realize milestones
- *
- * @author Philipp Kiszka <info@o-dyn.de>
- * @name milestone
- * @package Collabtive
- * @version 2.0
- * @link http://collabtive.o-dyn.de
- * @license http://opensource.org/licenses/gpl-license.php GNU General Public License v3 or later
- * @global $mylog
  */
 class milestone
 {

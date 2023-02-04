@@ -1,13 +1,6 @@
 <?php
 /**
  * This class provides methods to realize tasklists
- *
- * @author Philipp Kiszka <info@o-dyn.de>
- * @package Collabtive
- * @name tasklist
- * @version 1.0
- * @link http://collabtive.o-dyn.de
- * @license http://opensource.org/licenses/gpl-license.php GNU General Public License v3 or later
  */
 class tasklist {
 

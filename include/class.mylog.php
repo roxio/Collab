@@ -3,12 +3,6 @@
 /*
  * This class provides methods to realize the logging of different activities
  *
- * @author Philipp Kiszka <info@o-dyn.de>
- * @name mylog
- * @version 1.0
- * @package Collabtive
- * @link http://collabtive.o-dyn.de
- * @license http://opensource.org/licenses/gpl-license.php GNU General Public License v3 or later
  */
 
 class mylog

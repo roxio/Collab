@@ -2,13 +2,6 @@
 
 /*
  * The class 'settings' provides methods to deal with the global system settings
- *
- * @author Open Dynamics <info@o-dyn.de>
- * @name settings
- * @package Collabtive
- * @version 0.7.5
- * @link http://collabtive.o-dyn.de
- * @license http://opensource.org/licenses/gpl-license.php GNU General Public License v3 or later
  */
 
 class settings

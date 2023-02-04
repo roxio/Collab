@@ -2,13 +2,6 @@
 
 /**
  * Die Klasse stellt Methoden bereit um Projekte zu bearbeiten
- *
- * @author Philipp Kiszka <info@o-dyn.de>
- * @name project
- * @package Collabtive
- * @version 3
- * @link http://collabtive.o-dyn.de
- * @license http://opensource.org/licenses/gpl-license.php GNU General Public License v3 or later
  */
 class project extends databaseModel
 {

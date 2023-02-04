@@ -1,13 +1,6 @@
 <?php
 /**
 * This class provides methods to realize timetracking
-*
-* @author Philipp Kiszka <info@o-dyn.de>
-* @name timetracker
-* @version 1.0
-* @package Collabtive
- * @link http://collabtive.o-dyn.de
-* @license http://opensource.org/licenses/gpl-license.php GNU General Public License v3 or later
 */
 
 class timetracker {

@@ -2,13 +2,6 @@
 
 /**
  * Class datei (file) provides methods to handle files and folders
- *
- * @author Philipp Kiszka <info@o-dyn.de>
- * @name datei
- * @package Collabtive
- * @version 2.0
- * @link http://collabtive.o-dyn.de
- * @license http://opensource.org/licenses/gpl-license.php GNU General Public License v3 or later
  */
 class datei
 {

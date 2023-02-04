@@ -1,12 +1,6 @@
 <?php
 /**
  * This class provides methods to handle emailing
- *
- * @author Philipp Kiszka <info@o-dyn.de>
- * @name emailer
- * @package Collabtive
- * @link http://collabtive.o-dyn.de
- * @license http://opensource.org/licenses/gpl-license.php GNU General Public License v3 or later
  */
 class emailer
 {
