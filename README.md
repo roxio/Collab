@@ -5,13 +5,17 @@ Collab to internetowe oprogramowanie do zarządzania projektami. Jest to alterna
 # Wymagania
 
 PHP 5.5, PHP 7
+
 Baza danych MySQL/MariaDB lub SQLite
 
 # Obsługa przeglądarki
 
 Internet Explorera 10/11
+
 MS Edge
+
 Google Chrome
+
 Mozilla Firefox
 
 
