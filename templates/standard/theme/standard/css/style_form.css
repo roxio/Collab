@@ -139,13 +139,12 @@ form.main input {
 	margin: 0 84px 0 84px;
 	width: 32px;
 	height: 32px;
-	background: url(../images/login-butn.png) repeat-x 0 0;
+	background: url(../images/login-1.svg) repeat-x 0 0;
 	outline: none;
 }
 
 .loginbutn:hover {
-    background: url(../images/login-butn.png);
-	background-position: -32px 0;
+    background: url(../images/login-2.svg);
 	cursor: pointer;
 }
 
