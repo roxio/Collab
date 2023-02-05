@@ -8,7 +8,7 @@
 							<img src="./templates/{$settings.template}/theme/{$settings.theme}/images/logo-a.png" alt="{$settings.name}" />
 						
 					</h1>
-					<h2>{$settings.subtitle}</h2>
+					<br/>
 				</div>
 
 				<form id="loginform" name="loginform" method="post" action="manageuser.php?action=login" {literal} onsubmit="return validateCompleteForm(this,'input_error');" {/literal} >
