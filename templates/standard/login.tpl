@@ -8,19 +8,17 @@
 							<img src="./templates/{$settings.template}/theme/{$settings.theme}/images/logo-a.png" alt="{$settings.name}" />
 						
 					</h1>
-					<br/>
 				</div>
 
 				<form id="loginform" name="loginform" method="post" action="manageuser.php?action=login" {literal} onsubmit="return validateCompleteForm(this,'input_error');" {/literal} >
 					<fieldset>
-
-						<div class="row">
-							<label for="username" class="fa-solid fa-user"></label>
+							<div class="row">
+							<label for="username" class="fad fa-user"></label>
 							<input type="text" class="text" name="username" id="username" required="1" realname="{#name#}" />
 						</div>
 	
 						<div class="row">
-							<label for="pass" class="fa-solid fa-key"></label>
+							<label for="pass" class="fad fa-key"></label>
 							<input type="password" class="text" name="pass" id="pass" realname="{#password#}" />
 						</div>
 	
@@ -30,7 +28,7 @@
 						</div>
 	
 						<div class="row">
-							<fa<button type="submit" class="loginbutn" title="{#loginbutton#}" onfocus="this.blur();"></button>
+							<button type="submit" class="fad fa-key" title="{#loginbutton#}" onfocus="this.blur();"></button>
 						</div>
 					
 					</fieldset>

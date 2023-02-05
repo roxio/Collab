@@ -429,12 +429,10 @@ td.message ul {
 }
 
 .chat button:hover {
-    background: #6d7f93;
     color: #0a182f;
 }
 
 .chat button[disabled]:hover {
-    background: #384e67;
     color: #fff;
 }
 

@@ -38,7 +38,7 @@
     {/if}
  <link href="include/fontawesome/css/fontawesome.css" rel="stylesheet">
   <link href="include/fontawesome/css/brands.css" rel="stylesheet">
-  <link href="include/fontawesome/css/solid.css" rel="stylesheet">
+  <link href="include/fontawesome/css/duotone.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css"
           href="templates/{$settings.template}/theme/{$settings.theme}/css/{$settings.theme}.css"/>
 
