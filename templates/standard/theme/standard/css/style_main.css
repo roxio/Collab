@@ -18,7 +18,7 @@ html, body {
 
 body {
     color:#082343;
-    background:#28648b;
+    background:#388895;
     background-attachment: fixed;
 }
 
@@ -31,12 +31,12 @@ body a:hover {
     text-decoration: none;
 }
 ::selection {
-    background: #236e96 ;
+    background: #42403f ;
     color: #fff;
 }
 
 ::-moz-selection {
-    background: #236e96;
+    background: #42403f;
     color: #fff;
 }
 
@@ -68,7 +68,7 @@ td.message ul {
 
 .login-in, .login-alert {
     width: 100%;
-    background: url(../images/color-a.png) repeat 0 0;
+    background-color:#42403f;
     text-align: center;
     padding: 20px 0 20px 0;
     /*
@@ -116,7 +116,7 @@ td.message ul {
 #header-wrapper {
     width:100%;
     height: 70px;
-    background: url(../images/color-a.png) repeat 0 0;
+    background-color:#42403f;
 }
 
 #header {
@@ -224,7 +224,7 @@ td.message ul {
 
 #mainmenue .submen ul {
     width: auto;
-    background: url(../images/color-a.png) repeat 0 0;
+    background-color:#42403f;
     padding: 0 0 6px 6px;
     float: left;
     -moz-border-radius-bottomleft: 4px;
@@ -351,7 +351,7 @@ td.message ul {
 #content-right {
     width: 80px;
     min-height: 20px;
-    background: url(../images/color-a.png) repeat 0 0;
+    background-color:#42403f;
     margin: 0 0 0 0;
     padding: 5px 0 5px 0;
     float: left;
@@ -397,7 +397,7 @@ td.message ul {
 /* ## CHAT ############################################# */
 
 .chat {
-    background: url(../images/color-a.png) repeat 0 0;
+    background-color:#42403f;
     padding: 11px;
     color: #6d7f93;
     float: left;
@@ -443,7 +443,7 @@ td.message ul {
 .search-modal {
     width: 202px;
     min-height: 20px;
-    background: url(../images/color-a.png) repeat 0 0;
+    background-color:#42403f;
     margin: 0 0 0 0;
     padding: 12px 0px 23px 18px;
     float: left;
@@ -552,7 +552,7 @@ td.message ul {
     top: -34px;
     right: 0;
     z-index: 9;
-    color: #236e96;
+    color: #42403f;
     font-size: 12px;
     background: #fff;
     padding: 0 7px 0 7px;
@@ -1655,7 +1655,7 @@ ul.tabs li.system-settings a {
 
 #modal_container {
     overflow: auto;
-    color:  #236e96;
+    color:  #42403f;
     background: none;
     text-align: left;
 }
@@ -1690,7 +1690,7 @@ ul.tabs li.system-settings a {
 }
 
 #modal_overlay {
-    background-color: #236e96;
+    background-color: #42403f;
 
 }
 

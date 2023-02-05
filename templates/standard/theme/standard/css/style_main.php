@@ -8,7 +8,7 @@ gmdate("D, d M Y H:i:s",
     time() + $offset) . "GMT";
 header($ExpStr);
 
-$colorMain = "#236e96";
+$colorMain = "#42403f";
 
 $loginAlert = "#fac3b7";
 
@@ -128,7 +128,7 @@ html, body {
 
 body {
 	color:#082343;
-	background:#28648b;
+	background:#388895;
 	background-attachment: fixed;
 }
 
@@ -180,7 +180,7 @@ td.message ul {
 
 .login-in, .login-alert {
 	width: 100%;
-	background: url(../images/color-a.png) repeat 0 0;
+	background-color:#42403f;
 	text-align: center;
 	padding: 20px 0 20px 0;
 	/*
@@ -231,7 +231,7 @@ td.message ul {
 #header-wrapper {
 	width:100%;
 	height: 70px;
-	background: url(../images/color-a.png) repeat 0 0;
+	background-color:#42403f;
 }
 
 #header {
@@ -340,7 +340,7 @@ td.message ul {
 
 #mainmenue .submen ul {
 	width: auto;
-	background: url(../images/color-a.png) repeat 0 0;
+	background-color:#42403f;
 	padding: 0 0 6px 6px;
 	float: left;
 	-moz-border-radius-bottomleft: 4px;
@@ -469,7 +469,7 @@ td.message ul {
 #content-right {
 	width: 80px;
 	min-height: 20px;
-	background: url(../images/color-a.png) repeat 0 0;
+	background-color:#42403f;
 	margin: 0 0 0 0;
 	padding: 5px 0 5px 0;
 	float: left;
@@ -515,7 +515,7 @@ td.message ul {
 /* ## CHAT ############################################# */
 
 .chat {
-	background: url(../images/color-a.png) repeat 0 0;
+	background-color:#42403f;
 	padding: 11px;
 	color: #6d7f93;
 	float: left;
@@ -561,7 +561,7 @@ td.message ul {
 .search-modal {
 	width: 202px;
 	min-height: 20px;
-	background: url(../images/color-a.png) repeat 0 0;
+	background-color:#42403f;
 	margin: 0 0 0 0;
 	padding: 12px 0px 23px 18px;
 	float: left;

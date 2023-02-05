@@ -189,7 +189,7 @@ form.main input {
 	max-height: 300px;
 	overflow-y: auto;
 	overflow-x: hidden;
-	background: url(../images/color-a.png) repeat 0 0;
+	background-color:#42403f;
 	float:left;
 	padding: 0 0 1px 0;
 }
@@ -248,7 +248,7 @@ button, button.inner, button.inner-active {
 
 button:hover {
 	cursor: pointer;
-	background: #236e96;
+	background: #42403f;
 }
 
 button[disabled] {
