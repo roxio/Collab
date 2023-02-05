@@ -3,7 +3,7 @@
 
     <h2>
         <img src="./templates/{$settings.template}/theme/{$settings.theme}/images/symbols/system-settings.png" alt=""/>
-        <a href="http://collabtive.o-dyn.de/plugins.php">Plugins</a>
+        
     </h2>
 </div>
 <div id="block_plugins" class="block">

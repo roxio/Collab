@@ -108,7 +108,7 @@ tinyMCE.init({
 			They enable you to easily adapt Collabtive to your workflow.
 		</div>
 		<div class="row-butn-bottom">
-			<button onclick="window.open('http://www.collabtive.o-dyn.de/plugins.php')" onfocus="this.blur();">Learn more about Plugins</button>
+			
 		</div>
 
 		<div class="row-butn-bottom">

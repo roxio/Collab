@@ -19,7 +19,7 @@
 					</div>
 										
 					<div class = "row-butn-bottom">
-						<button type="reset" onfocus="this.blur();" onclick = "window.location='http://collabtive.o-dyn.de/downloadref.php';">Download update</button><br />
+						<br />
 					</div>
 					<br />
 				</form>
