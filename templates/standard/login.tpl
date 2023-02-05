@@ -15,12 +15,12 @@
 					<fieldset>
 
 						<div class="row">
-							<label for="username" class="username"></label>
+							<label for="username" class="fa-solid fa-user"></label>
 							<input type="text" class="text" name="username" id="username" required="1" realname="{#name#}" />
 						</div>
 	
 						<div class="row">
-							<label for="pass" class="pass"></label>
+							<label for="pass" class="fa-solid fa-key"></label>
 							<input type="password" class="text" name="pass" id="pass" realname="{#password#}" />
 						</div>
 	
@@ -30,7 +30,7 @@
 						</div>
 	
 						<div class="row">
-							<button type="submit" class="loginbutn" title="{#loginbutton#}" onfocus="this.blur();"></button>
+							<fa<button type="submit" class="loginbutn" title="{#loginbutton#}" onfocus="this.blur();"></button>
 						</div>
 					
 					</fieldset>
