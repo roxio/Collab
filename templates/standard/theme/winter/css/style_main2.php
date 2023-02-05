@@ -8,7 +8,7 @@ gmdate("D, d M Y H:i:s",
     time() + $offset) . "GMT";
 header($ExpStr);
 
-$colorMain = "#001e40";
+$colorMain = "#236e96";
 
 $loginAlert = "#BE4C43";
 

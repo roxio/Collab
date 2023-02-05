@@ -248,7 +248,7 @@ button, button.inner, button.inner-active {
 
 button:hover {
 	cursor: pointer;
-	background: #001e40;
+	background: #236e96;
 }
 
 button[disabled] {
