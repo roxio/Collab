@@ -10,9 +10,9 @@ if (!is_writable("./templates_c")) {
 	die("Required folder 'templates_c' is not writable. <br>Please make the folder writable in order to proceed.");
 }
 
-// check if the settings table / object is present. If yes, assume Collabtive is already installed and abort
+// check if the settings table / object is present. If yes, assume Collab is already installed and abort
 if (!empty($settings)) {
-    die("Collabtive seems to be already installed.<br />If this is an error, please clear your database.");
+    die("Collab seems to be already installed.<br />If this is an error, please clear your database.");
 }
 
 session_start();
@@ -84,9 +84,9 @@ if (!$action) {
 	//create a random password to encrypt files with
     $filePass = randomPassword();
 
-    // check if the settings table / object is present. if yes, assume collabtive is already installed and abort
+    // check if the settings table / object is present. if yes, assume collab is already installed and abort
     if (!empty($settings)) {
-        die("Collabtive seems to be already installed.<br />If this is an error, please clear your database.");
+        die("Collab seems to be already installed.<br />If this is an error, please clear your database.");
     }
 
     $db_host = $_POST['db_host'];
@@ -127,7 +127,7 @@ if (!$action) {
     $timezone = date_default_timezone_get();
 
     // insert default settings
-    $defSets = array("name" => "Collabtive", "subtitle" => "Projectmanagement", "locale" => $locale, "timezone" => $timezone, "dateformat" => "d.m.Y", "template" => "standard", "mailnotify" => 1, "mailfrom" => "collabtive@localhost", "mailfromname" => "", "mailmethod" => "mail", "mailhost" => "", "mailuser" => "", "mailpass" => "", "rssuser" => "", "rsspass" => "", "theme" => "standard", "filePass" => $filePass);
+    $defSets = array("name" => "Collab", "subtitle" => "Projectmanagement", "locale" => $locale, "timezone" => $timezone, "dateformat" => "d.m.Y", "template" => "standard", "mailnotify" => 1, "mailfrom" => "collabtive@localhost", "mailfromname" => "", "mailmethod" => "mail", "mailhost" => "", "mailuser" => "", "mailpass" => "", "rssuser" => "", "rsspass" => "", "theme" => "standard", "filePass" => $filePass);
 
     foreach($defSets as $setKey => $setVal) {
         $ins = $conn->query("INSERT INTO settings (`settingsKey`,`settingsValue`) VALUES ('$setKey','$setVal')");

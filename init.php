@@ -35,10 +35,10 @@ define("CL_ROOT", realpath(dirname(__FILE__)));
 define("CL_DIRECTORY",basename(__DIR__));
 // configuration to load
 define("CL_CONFIG", "standard");
-// collabtive release date
+// collab release date
 define("CL_PUBDATE", "1484175600");
 // set the version number for display
-define("CL_PUBLIC_VERSION", "3.2");
+define("CL_PUBLIC_VERSION", "0.1L");
 
 
 /*
