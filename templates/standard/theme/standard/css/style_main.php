@@ -123,7 +123,6 @@ html, body {
 	padding: 0;
 	height: 100%;
 	font-family: Arial, helvetica, sans-serif;
-	font-size: 13px;
 }
 
 body {
