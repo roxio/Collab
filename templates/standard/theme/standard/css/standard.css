@@ -51,73 +51,74 @@ padding:0}
 margin:0}
 
 .login form{
-width:200px;
+width:230px;
+padding-top:10px;
 margin:0 auto 0 auto;
 color:#fff;
 font-weight:bold;
 text-align:left}
 
 .login form .row{
-height:40px}
+height:40px;
+padding:2px}
 
 .login form label{
 float:left;
 display:block;
-width:34px;
-height:23px;
-margin-right:1px;
+width:38px;
+height:38px;
+margin-right:-4px;
 background-position:0 0;
-background-repeat:no-repeat}
+background-repeat:no-repeat;
+font-size:24px;
+color:#99B898;
+padding: 6px 0 0 0;}
 
 .login .username{
-background:url(../images/login-user.png)}
+}
 
 .login .pass{
-background:url(../images/login-pass.png)}
+}
 
 .login .keep,login .keep-active{
-background:url(../images/login-keeplogged.png)}
+}
 
 .login .keep-active{
-background:url(../images/login-keeplogged.png) no-repeat -68px 0}
+}
 
 .login label:hover{
-background-position:-34px 0;
 cursor:pointer}
 
 .login label.keep-active:hover{
-background-position:-102px 0}
+}
+
+.enterence{
+	font-size:36px;
+	color:#E84A5F;
+	padding: 12px 0px 0px 0px;
+	float: right;
+	margin-right: 20px;
+}
 
 .login form input,.login form label.keep span,.login form label.keep-active span{
 float:left;
 width:160px;
-height:26px;
+height:38px;
 padding:4px 6px 0 6px;
 border:none;
-font-size:12px;
-background-color:#7E2D40}
+font-size:19px;
+color:#E84A5F;
+background-color:#99B898;
+}
 
 .login form label.keep span,.login form label.keep-active span{
-margin:0 0 0 35px;
-background:url(../images/login-logged-butn.png) repeat-x 0 0}
+margin:0 0 0 38px;}
 
 .login form label.keep:hover span,.login form label.keep-active:hover span{
 background-position:0 -23px}
 
 #stay{
 visibility:hidden}
-
-.loginbutn{
-border:none;
-margin:0 84px 0 84px;
-width:32px;
-height:32px;
-background:url(../images/login-1.svg) repeat-x 0 0;
-outline:none}
-
-.loginbutn:hover{
-background:url(../images/login-2.svg);
-cursor:pointer}
 
 #search{
 position:relative;
@@ -153,7 +154,7 @@ height:auto;
 max-height:300px;
 overflow-y:auto;
 overflow-x:hidden;
-background-color:#42403f;
+background-color:#2A363B;
 float:left;
 padding:0 0 1px 0}
 
@@ -447,7 +448,7 @@ font-family:Arial, helvetica, sans-serif;
 
 body{
 color:#082343;
-background:#388895;
+background:#99B898;
 background-attachment:fixed}
 
 body a,body a:visited{
@@ -458,11 +459,11 @@ body a:hover{
 text-decoration:none}
 
 ::selection{
-background:#42403f;
+background:#2A363B;
 color:#fff}
 
 ::-moz-selection{
-background:#42403f;
+background:#2A363B;
 color:#fff}
 
 ul{
@@ -484,7 +485,7 @@ margin-left:-230px}
 
 .login-in,.login-alert{
 width:100%;
-background-color:#42403f;
+background-color:#2A363B;
 text-align:center;
 padding:20px 0 20px 0}
 
@@ -519,7 +520,7 @@ margin:0 auto}
 #header-wrapper{
 width:100%;
 height:70px;
-background-color:#42403f}
+background-color:#2A363B}
 
 #header{
 width:980px;
@@ -605,7 +606,7 @@ display:none}
 
 #mainmenue .submen ul{
 width:auto;
-background-color:#42403f;
+background-color:#2A363B;
 padding:0 0 6px 6px;
 float:left;
 -webkit-border-bottom-left-radius:4px;
@@ -706,7 +707,7 @@ border-top:1px dotted #000}
 #content-right{
 width:80px;
 min-height:20px;
-background-color:#42403f;
+background-color:#2A363B;
 margin:0 0 0 0;
 padding:5px 0 5px 0;
 float:left;
@@ -741,7 +742,7 @@ background:url(../images/win-down-side.png) no-repeat right 1px}
 background-position:right -15px}
 
 .chat{
-background-color:#42403f;
+background-color:#2A363B;
 padding:11px;
 color:#6d7f93;
 float:left;
@@ -780,7 +781,7 @@ color:#fff}
 .search-modal{
 width:202px;
 min-height:20px;
-background-color:#42403f;
+background-color:#2A363B;
 margin:0 0 0 0;
 padding:12px 0px 23px 18px;
 float:left;
@@ -864,7 +865,7 @@ position:absolute;
 top:-34px;
 right:0;
 z-index:9;
-color:#42403f;
+color:#2A363B;
 font-size:12px;
 background:#fff;
 padding:0 7px 0 7px;
@@ -1707,7 +1708,7 @@ background-image:url(../images/symbols/tab-system-settings.png)}
 
 #modal_container{
 overflow:auto;
-color:#42403f;
+color:#2A363B;
 background:none;
 text-align:left}
 
@@ -1735,7 +1736,7 @@ border:none;
 padding:0}
 
 #modal_overlay{
-background-color:#42403f}
+background-color:#2A363B}
 
 #modal_overlay.useroverlay{
 background:#bbcbbb}

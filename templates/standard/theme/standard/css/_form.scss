@@ -112,13 +112,15 @@ form.main input {
 }
 
 .login form input, .login form label.keep span, .login form label.keep-active span {
-  float: left;
-  width: 153px;
-  height: 19px;
-  padding: 4px 6px 0 6px;
-  border: none;
-  font-size: 12px;
-  background: url(../images/input-bg-a.png) repeat-x 0 0;
+float:left;
+width:160px;
+height:38px;
+padding:4px 6px 0 6px;
+border:none;
+font-size:19px;
+color:#E84A5F;
+background-color:#99B898;
+}
 }
 
 .login form label.keep span, .login form label.keep-active span {

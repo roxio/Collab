@@ -21,14 +21,8 @@
 							<label for="pass" class="fad fa-key"></label>
 							<input type="password" class="text" name="pass" id="pass" realname="{#password#}" />
 						</div>
-	
 						<div class="row">
-							<label for="stay" class="keep" onclick="toggleClass(this,'keep','keep-active');"><span>{#stayloggedin#}</span></label>
-							<input type="checkbox" name="staylogged" id="stay" value="1" />
-						</div>
-	
-						<div class="row">
-							<button type="submit" class="fad fa-key" title="{#loginbutton#}" onfocus="this.blur();"></button>
+							<button type="submit" class="fa-duotone fa-right-to-bracket enterence" title="{#loginbutton#}" onfocus="this.blur();"></button>
 						</div>
 					
 					</fieldset>

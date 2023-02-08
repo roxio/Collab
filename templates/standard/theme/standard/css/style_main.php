@@ -8,7 +8,7 @@ gmdate("D, d M Y H:i:s",
     time() + $offset) . "GMT";
 header($ExpStr);
 
-$colorMain = "#42403f";
+$colorMain = "#2A363B";
 
 $loginAlert = "#fac3b7";
 
@@ -127,7 +127,7 @@ html, body {
 
 body {
 	color:#082343;
-	background:#388895;
+	background:#99B898;
 	background-attachment: fixed;
 }
 
@@ -179,7 +179,7 @@ td.message ul {
 
 .login-in, .login-alert {
 	width: 100%;
-	background-color:#42403f;
+	background-color:#2A363B;
 	text-align: center;
 	padding: 20px 0 20px 0;
 	/*
@@ -230,7 +230,7 @@ td.message ul {
 #header-wrapper {
 	width:100%;
 	height: 70px;
-	background-color:#42403f;
+	background-color:#2A363B;
 }
 
 #header {
@@ -339,7 +339,7 @@ td.message ul {
 
 #mainmenue .submen ul {
 	width: auto;
-	background-color:#42403f;
+	background-color:#2A363B;
 	padding: 0 0 6px 6px;
 	float: left;
 	-moz-border-radius-bottomleft: 4px;
@@ -468,7 +468,7 @@ td.message ul {
 #content-right {
 	width: 80px;
 	min-height: 20px;
-	background-color:#42403f;
+	background-color:#2A363B;
 	margin: 0 0 0 0;
 	padding: 5px 0 5px 0;
 	float: left;
@@ -514,7 +514,7 @@ td.message ul {
 /* ## CHAT ############################################# */
 
 .chat {
-	background-color:#42403f;
+	background-color:#2A363B;
 	padding: 11px;
 	color: #6d7f93;
 	float: left;
@@ -560,7 +560,7 @@ td.message ul {
 .search-modal {
 	width: 202px;
 	min-height: 20px;
-	background-color:#42403f;
+	background-color:#2A363B;
 	margin: 0 0 0 0;
 	padding: 12px 0px 23px 18px;
 	float: left;
